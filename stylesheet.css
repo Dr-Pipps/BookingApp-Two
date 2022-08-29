@@ -1,0 +1,84 @@
+/* Assets: */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto:wght@100&family=Spline+Sans+Mono&display=swap');
+:root{
+    --main-color: #6674A3;
+    --secondary-color: #44495B;
+    --customer-details: #B5B2B2;
+    --text-color: white;
+}
+
+
+/* Content Style: */
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--main-color);
+    font-family: Poppins;
+    
+}
+
+/* NavBar Styling */
+.NavBar{
+    display: flex;
+    place-content: space-between;
+    padding: 15px;
+    background-color: var(--secondary-color);
+}
+.web_title{
+    
+    color: var(--text-color);
+    font-size: 15px;
+}
+.logo_black{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.small_text{
+    font-size: 11px;
+    font-weight: 100;    
+}
+/* CustomerForm Styling */
+.customer_details{
+    margin: 50px auto;
+    max-width: 410px;
+    border: solid 4px white;
+}
+.welocome_message{
+    display: flex;
+    place-content: center;
+    color: white;
+    padding: 15px ;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.form_details{
+    padding: 30px;
+}
+
+.form_details input{
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    width: 20rem;
+}
+.sub_button{
+    font-size: 12px;
+    border: none;
+    margin-top: 30px;
+    padding: 8px 9px;
+}
+.selection{
+    padding: 5px 6px;
+    width: 21rem;
+}
+
+/* Footer Element */
+.web_footer{
+    background-color: var(--secondary-color);
+    padding: 25px;
+    position: relative;
+    top:104px;
+    
+}
